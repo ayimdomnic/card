@@ -59,7 +59,7 @@ var flash = {
      * @return alertModal exibir um alert em modal
      */
     confirm: function(fContinue, text, title, confirmButton, cancelButton) {
-        text = text || 'You cannot undo this actiono';
+        text = text || 'You cannot undo this action';
         title = title || 'Do you really want to continue?';
         confirmButton = confirmButton || 'Yes, continue';
         cancelButton = cancelButton || 'Cancel';

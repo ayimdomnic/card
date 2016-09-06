@@ -226,6 +226,7 @@ var usernameList = Vue.extend({
             flash.confirm(function() {
                 confirm(self);
             });
+            // console.log(flash.confirm);
         }
     },
     ready: function() {

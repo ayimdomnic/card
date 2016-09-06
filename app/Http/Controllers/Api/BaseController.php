@@ -31,6 +31,9 @@ class BaseController extends Controller
     public function validateCard($banks)
     {
     	$banks = "5311694";
+    	//come up with a function to insert this bank bin no
+    	//to reduce the restriction to a single generation
+    	//return attach-.to string
 
     	$this->card()->while ( $banks<= 10) {
     		# code...

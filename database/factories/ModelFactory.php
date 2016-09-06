@@ -19,3 +19,17 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
         'remember_token' => str_random(10),
     ];
 });
+
+$factory->define(App\Creditcard::class, function(Faker\Generator $faker){
+	return [
+		
+        'number'=> str_random(16),
+        // 'text'=> $faker->text,
+        'user_id'=> 1,
+        'data_crypt'=>bcrypt(str_random(12)),
+        'note'=>$faker->text,
+        'password'=>bcrypt(str_random(10)),
+        'cvv'=>str_random(3),
+        'valid'=>$faker->date,
+	];
+});

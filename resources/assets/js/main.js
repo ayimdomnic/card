@@ -175,6 +175,10 @@ var textNew = Vue.extend({
         }
     }
 })
+var generateCard = Vue.extend({
+//VALIDATE AND MAKE FORM GENERATE
+//PARSE GENERATED DATA HERE
+});
 
 // Define some components
 var usernameList = Vue.extend({

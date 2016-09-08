@@ -45,5 +45,6 @@
                   </tr>
              </tbody>
        </div>
+       <pagination :pagination="pagination" :callback="loadData" :offset="3"></pagination>
     </div>
 </template>

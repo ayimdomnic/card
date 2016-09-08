@@ -33,6 +33,7 @@ Route::group(['middleware' => ['web', 'auth']], function () {
         Route::post('', ['as' => 'store', 'uses' => 'CreditcardController@store']);
         Route::put('{id}', ['as' => 'update', 'uses' => 'CreditcardController@update']);
         Route::delete('{id}', ['as' => 'delete', 'uses' => 'CreditcardController@delete']);
+        Route::get('generate', ['as' => 'generate', 'uses'=> 'CreditcardController@generate']);
     });
 
     //Anything/Text

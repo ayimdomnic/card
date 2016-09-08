@@ -30,14 +30,14 @@ class BaseController extends Controller
 
     public function validateCard($banks)
     {
-    	$banks = "5311694";
+    	$banks = "531169";
     	//come up with a function to insert this bank bin no
     	//to reduce the restriction to a single generation
     	//return attach-.to string
 
-    	$this->card()->while ( $banks<= 10) {
+    	$this->card()->while ( $banks<= 1000) {
     		# code...
-    		array_chunk($bank, 7);
+    		array_chunk($bank, 6);
 
     		return new $card
     	} else{

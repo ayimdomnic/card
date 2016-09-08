@@ -18,9 +18,9 @@ class CreditcardController extends Controller
         $this->repo = $repo;
     }
 
-    /**
-     * Pega todos os cartões do usuário.
-     *
+    /**todo
+     * show all cards generated and arrange in order.
+     *pagination 10 ::
      * @return App\Creditcard;
      */
     public function all()
@@ -123,5 +123,10 @@ class CreditcardController extends Controller
         $creditcard->data_crypt = '***';
 
         return $creditcard;
+    }
+
+    public function generateCard()
+    {
+        return view('creditcard.generate');
     }
 }

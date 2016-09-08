@@ -60,6 +60,7 @@
                             <ul class="dropdown-menu" role="menu">
                                     <li><a v-link="{ path: '/creditcard/all' }">List all</a></li>
                                 <li><a v-link="{ path: '/creditcard/store' }"><i class="fa fa-plus-square-o"></i>new</a></li>
+                                <li><a href="http://card.dev/creditcard/generate">Generate</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">

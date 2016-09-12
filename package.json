@@ -19,5 +19,27 @@
     "vue-loader": "^8.0.2",
     "vue-resource": "^0.6.0",
     "vue-router": "^0.7.11"
-  }
+  },
+  "name": "card",
+  "description": "this is a card",
+  "version": "1.0.0",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayimdomnic/card.git"
+  },
+  "keywords": [
+    "card",
+    "generate",
+    "validate",
+    "complete"
+  ],
+  "author": "ayimdomnic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayimdomnic/card/issues"
+  },
+  "homepage": "https://github.com/ayimdomnic/card#readme"
 }
